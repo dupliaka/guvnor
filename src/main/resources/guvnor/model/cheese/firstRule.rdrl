@@ -1,0 +1,24 @@
+package guvnor.model.cheese;
+
+rule "firstRule"
+	salience 10
+	enabled true
+	date-effective "01-Jan-2008"
+	date-expires "01-Jan-2008"
+	no-loop 
+// agenda-group and ruleflow-group have been merged in 6.x, this one would be overwritten
+//	agenda-group "aGroup"
+	activation-group "actGroup"
+	duration 100
+	auto-focus true
+	lock-on-active true
+	ruleflow-group "rfGroup"
+	dialect "mvel"
+	when
+		( Alarm( status == "pending" || status != ( "pen"+" "+"ding" ) || ( name soundslike "alarm1" && name != "alarm3" )) or Syste( ) )
+	then
+		french.setFname( "Pierre" );
+		insert( new Person() );
+		insertLogical( new Person() );
+		System.out.println("firstRule");
+end

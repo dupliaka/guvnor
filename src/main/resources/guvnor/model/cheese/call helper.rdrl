@@ -1,0 +1,8 @@
+package guvnor.model.cheese;
+
+rule "call helper"
+	dialect "mvel"
+	when
+		Message( status == 1063221 )
+	then
+end

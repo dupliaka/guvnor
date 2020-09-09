@@ -1,0 +1,7 @@
+package guvnor.feature.metadata;
+
+rule "metadata rule"
+	dialect "mvel"
+	when
+	then
+end

@@ -1,0 +1,9 @@
+package guvnor.model.cheese;
+
+rule "secondRule"
+	salience 10
+	when
+		Cheese( smelly == true)
+	then
+		insert( new Person("Pierre", "m", 18) );
+end

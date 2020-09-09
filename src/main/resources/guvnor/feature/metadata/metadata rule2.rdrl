@@ -1,0 +1,9 @@
+package guvnor.feature.metadata;
+
+import java.lang.Number;
+
+rule "metadata rule2"
+	dialect "mvel"
+	when
+	then
+end

@@ -1,0 +1,8 @@
+package guvnor.model.cheese;
+
+rule "enumRule"
+	dialect "mvel"
+	when
+		Person( sex == "m" )
+	then
+end

@@ -1,0 +1,25 @@
+import org.drools.core.process.core.datatype.impl.type.StringDataType;
+import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
+
+[
+  [
+    "name" : "task1", 
+    "parameters" : [ 
+        "param" : new StringDataType()
+    ], 
+    "results" : [ 
+        "result" : new StringDataType() 
+    ], 
+    "displayName" : "task1"
+  ],
+  [
+    "name" : "task2", 
+    "parameters" : [ 
+        "param" : new StringDataType()
+    ], 
+    "results" : [ 
+        "result" : new StringDataType() 
+    ], 
+    "displayName" : "task2"
+  ]
+]

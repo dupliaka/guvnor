@@ -1,0 +1,11 @@
+package guvnor.feature.enumeration.dynamic_simple;
+
+import java.lang.Number;
+import guvnor.feature.enumeration.EnumFact;
+
+rule "dynamic_simple"
+	dialect "mvel"
+	when
+		>var1 : EnumFact( )
+	then
+end

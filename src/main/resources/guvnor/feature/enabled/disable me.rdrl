@@ -1,0 +1,11 @@
+package guvnor.feature.enabled;
+
+import guvnor.model.cheese.Person;
+
+rule "disable me"
+	enabled true
+	dialect "mvel"
+	when
+		Person( sex == "m" )
+	then
+end

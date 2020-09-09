@@ -1,0 +1,12 @@
+'EnumFact.fieldInteger1' : (new test.Helper()).getFieldInteger1()
+'EnumFact.fieldInteger2' : (new test.Helper()).getFieldInteger2()
+'EnumFact.fieldInteger2[fieldInteger1=0]' : (new test.Helper()).getFieldInteger2_0()
+'EnumFact.fieldInteger2[fieldInteger1=1]' : (new test.Helper()).getFieldInteger2_1()
+'EnumFact.fieldInteger3[fieldInteger1=0]' : (new test.Helper()).getFieldInteger3()
+'EnumFact.fieldInteger4[fieldInteger1, fieldInteger2]' : '(new test.Helper()).getFieldInteger4("@{fieldInteger1}", "@{fieldInteger2}")'
+'EnumFact.fieldString1' : (new test.Helper()).getFieldString1()
+'EnumFact.fieldString2' : (new test.Helper()).getFieldString2()
+'EnumFact.fieldString2[fieldString1=firstValue]' : (new test.Helper()).getFieldString2_1()
+'EnumFact.fieldString2[fieldString1=nilValue]' : (new test.Helper()).getFieldString2_0()
+'EnumFact.fieldString3[fieldString1=nilValue]' : (new test.Helper()).getFieldString3()
+'EnumFact.fieldString4[fieldString1, fieldString2]' : '(new test.Helper()).getFieldString4("@{fieldString1}", "@{fieldString2}")'

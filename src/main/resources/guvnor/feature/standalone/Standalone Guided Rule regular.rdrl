@@ -1,0 +1,10 @@
+package guvnor.feature.standalone;
+
+import java.lang.Number;
+
+rule "Standalone Guided Rule regular"
+	dialect "mvel"
+	when
+		f : StandaloneFact( city == "RDU" )
+	then
+end

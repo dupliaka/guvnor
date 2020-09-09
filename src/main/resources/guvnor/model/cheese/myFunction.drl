@@ -1,0 +1,14 @@
+package guvnor.model.cheese;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+function String returnAlarms(ArrayList als){
+        String ret="elements are:";
+        Iterator it;
+        for (it = als.iterator();it.hasNext();){
+                ret+=" "+((Alarm)it.next()).getName();
+        }
+        return ret;
+}
+

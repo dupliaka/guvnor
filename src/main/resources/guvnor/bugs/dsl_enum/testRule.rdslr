@@ -1,0 +1,8 @@
+package guvnor.bugs.dsl_enum;
+
+import guvnor.model.cheese.Person;
+
+rule "testRule"
+when
+then
+end

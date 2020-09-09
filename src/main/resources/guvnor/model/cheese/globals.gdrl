@@ -1,0 +1,5 @@
+package guvnor.model.cheese;
+
+global java.util.List list;
+global guvnor.model.cheese.French french;
+global guvnor.model.cheese.Helper helper;

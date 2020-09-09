@@ -1,0 +1,3 @@
+ 'Vehicle.engineType' : ['Petrol', 'Diesel']
+ 'Vehicle.fuelType[engineType=Petrol]' : ['ULP', 'PULP' ]
+ 'Vehicle.fuelType[engineType=Diesel]' : ['BIO', 'NORMAL' ]

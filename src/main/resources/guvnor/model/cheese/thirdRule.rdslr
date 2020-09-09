@@ -1,0 +1,9 @@
+package guvnor.model.cheese;
+rule "thirdRule"
+when
+There is a Person with age equals to 99
+ oorr 
+There is an Person with name of "Jarek" and older than 18
+then
+Log : "WOW"
+end

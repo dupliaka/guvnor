@@ -1,0 +1,6 @@
+package guvnor.bugs.bz724629;
+
+rule "enum rule"
+when
+then
+end

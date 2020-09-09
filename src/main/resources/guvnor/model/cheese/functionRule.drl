@@ -1,0 +1,12 @@
+package guvnor.model.cheese;
+
+import java.util.ArrayList;
+
+rule "functionRule"
+salience 10
+when
+sys:Syste()
+alarms:ArrayList(size >= 3) from collect (Alarm (system==sys, status =="pending"))
+then
+System.out.println("The following system "+sys+" has more than 3 pendings"+returnAlarms(alarms));
+end

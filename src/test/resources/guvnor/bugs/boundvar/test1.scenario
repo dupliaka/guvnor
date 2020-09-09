@@ -1,0 +1,54 @@
+<scenario>
+  <maxRuleFirings>100000</maxRuleFirings>
+  <globals/>
+  <fixtures>
+    <fact-data>
+      <type>Fact1</type>
+      <name>f1</name>
+      <fieldData>
+        <field-data>
+          <name>field1</name>
+          <value>myText</value>
+        </field-data>
+        <field-data>
+          <name>field2</name>
+          <value>123</value>
+        </field-data>
+      </fieldData>
+      <isModify>false</isModify>
+    </fact-data>
+    <fact-data>
+      <type>Fact2</type>
+      <name>f2</name>
+      <fieldData>
+        <field-data>
+          <name>fielda</name>
+          <value>=f1</value>
+        </field-data>
+        <field-data>
+          <name>field_b</name>
+          <value>123</value>
+        </field-data>
+      </fieldData>
+      <isModify>false</isModify>
+    </fact-data>
+    <execution-trace>
+      <executionTimeResult>0</executionTimeResult>
+      <numberOfRulesFired>1</numberOfRulesFired>
+    </execution-trace>
+    <expect-rule>
+      <ruleName>bound variables</ruleName>
+      <expectedCount>1</expectedCount>
+      <explanation>Rule [bound variables] activated 1 times.</explanation>
+      <successResult>true</successResult>
+      <actualResult>1</actualResult>
+    </expect-rule>
+  </fixtures>
+  <lastRunResult>2009-06-22 12:37:43.846 EDT</lastRunResult>
+  <rules/>
+  <inclusive>false</inclusive>
+  <packageName>guvnor.bugs.boundvar</packageName>
+  <imports>
+    <imports/>
+  </imports>
+</scenario>

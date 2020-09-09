@@ -1,0 +1,10 @@
+package guvnor.bugs.number_from_accumulate;
+
+import java.lang.Number;
+import guvnor.model.cheese.Person;
+
+rule "Number From Accumulate"
+	dialect "mvel"
+	when
+	then
+end

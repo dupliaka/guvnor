@@ -1,0 +1,4 @@
+'EnumFact.fieldInteger1' : (new test.Helper()).getFieldInteger1()
+'EnumFact.fieldInteger2' : (new test.Helper()).getFieldInteger2()
+'EnumFact.fieldString1' : (new test.Helper()).getFieldString1()
+'EnumFact.fieldString2' : (new test.Helper()).getFieldString2()

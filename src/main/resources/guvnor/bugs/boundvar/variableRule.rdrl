@@ -1,0 +1,11 @@
+package guvnor.bugs.boundvar;
+
+import java.lang.Number;
+
+rule "variableRule"
+	dialect "mvel"
+	when
+		f1 : Fact1( )
+		f2 : Fact1( )
+	then
+end

@@ -1,0 +1,7 @@
+package guvnor.feature.standalone;
+
+rule "DRL rule"
+when
+    StandaloneFact( city == "BOS", value > 1000 )
+then
+end
